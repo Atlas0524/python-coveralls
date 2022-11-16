@@ -1,2 +1,2 @@
-# [Codecov](https://codecov.io) Python Example
-[![codecov](https://codecov.io/gh/Atlas0524/python-codecov/branch/main/graph/badge.svg?token=N4GYZ6I6W0)](https://codecov.io/gh/Atlas0524/python-codecov)
+# Coveralls Python Example
+[![Coverage Status](https://coveralls.io/repos/github/Atlas0524/python-coveralls/badge.svg?branch=main)](https://coveralls.io/github/Atlas0524/python-coveralls?branch=main)
