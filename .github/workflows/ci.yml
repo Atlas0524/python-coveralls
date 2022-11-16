@@ -13,9 +13,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Run tests and collect coverage
-        run: pytest --cov app
-      - name: Convert to lcov
-        run: coverage-lcov --output_file_path coverage/lcov.info
+        run: pytest --cov-report lcov:lcov.info --cov=app
       - name: Coveralls Finished
         uses: coverallsapp/github-action@master
         with:
