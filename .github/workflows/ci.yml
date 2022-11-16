@@ -15,7 +15,7 @@ jobs:
       - name: Run tests and collect coverage
         run: pytest --cov app
       - name: Convert to lcov
-        run: coveragepy-lcov --output_file_path coverage/lcov.info
+        run: mkdir coverage && coveragepy-lcov --output_file_path coverage/lcov.info
       - name: Coveralls Finished
         uses: coverallsapp/github-action@master
         with:
